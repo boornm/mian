@@ -18,7 +18,7 @@ public class Point {
         return this.y;
     }
 
-    public double distanceTo (int x, int y){
+    public double distanceTo (double x, double y){
         double d;
         d = Math.sqrt(Math.pow(this.x - x, 2) + Math.pow(this.y - y, 2));
         return d;
