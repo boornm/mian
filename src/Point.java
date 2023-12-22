@@ -24,4 +24,7 @@ public class Point {
         return d;
     }
 
+    public String ToString(){
+        return "x = " + this.x + " y = " + this.y;
+    }
 }
