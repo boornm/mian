@@ -12,7 +12,7 @@ public class MyApp {
         while (sc.hasNext()) {
             double x = sc.nextDouble();
             double y = sc.nextDouble();
-            Point point = new Point((int) x, (int) y);
+            Point point = new Point(x, y);
            shape.add(point);
        }
 

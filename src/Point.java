@@ -1,20 +1,20 @@
 public class Point {
-    private int x;
-    private int y;
+    private double x;
+    private double y;
 
-    public Point(int x, int y){
-        SetPoint(x, y);
+    public Point(double x, double y){
+        addPoint(x, y);
     }
-    public void SetPoint(int x, int y){
+    public void addPoint(double x, double y){
         this.x = x;
         this.y = y;
     }
 
-    public int getX(){
+    public double getX(){
         return this.x;
     }
 
-    public int getY(){
+    public double getY(){
         return this.y;
     }
 
