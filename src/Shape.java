@@ -22,7 +22,7 @@ public class Shape {
         return d;
     }
 
-    public double LongestSide(){
+    public double longestSide(){
         double d = 0;
         for(int i = 0; i < p.size() - 2; i++){
             if (p.get(i).distanceTo(p.get(i + 1).getX(), p.get(i + 1).getY()) > p.get(i + 1).distanceTo(p.get(i + 2).getX(), p.get(i + 2).getY())){
