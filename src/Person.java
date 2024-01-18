@@ -35,7 +35,7 @@ public abstract class Person implements Payable{
     }
 
     public String ToString(){
-        return id + ". " + name + " " + surname;
+        return this.id + ". " + this.name + " " + this.surname;
     }
 
     public abstract String GetPosition();
