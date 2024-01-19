@@ -38,4 +38,9 @@ public class Employee extends Person{
         return position;
     }
 
+
+    @Override
+    public int compareTo(Person person) {
+        return Double.compare(this.getPaymentAmount(), person.getPaymentAmount());
+    }
 }

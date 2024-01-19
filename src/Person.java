@@ -1,4 +1,4 @@
-public abstract class Person implements Payable{
+public abstract class Person implements Payable, Comparable<Person>{
     private int id;
     private static int id_gen = 1;
     private String name;

@@ -36,4 +36,9 @@ public class Student extends Person{
     public String GetPosition() {
         return "Student";
     }
+
+    @Override
+    public int compareTo(Person person) {
+        return Double.compare(this.getPaymentAmount(), person.getPaymentAmount());
+    }
 }
